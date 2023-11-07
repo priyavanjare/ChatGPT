@@ -6,7 +6,7 @@
 import OpenAI from 'openai';
 
 const openAiApi = new OpenAI({
-  apiKey: "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", dangerouslyAllowBrowser: true
+  apiKey: "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", dangerouslyAllowBrowser: true
 });
 
 export async function sendMsgToOpenApi (message){
