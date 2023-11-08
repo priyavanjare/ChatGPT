@@ -169,13 +169,13 @@ body{
   position:relative ;
   
  }
- .inp input {
+ .inp>input {
   padding: 0.8rem;
   background-color:rgba(28,30,58,1);
   border: none;
   width: 45rem;
  }
- .inp .send{
+ .inp>.send{
   position:absolute;
   right:12rem;
   top: 39.4rem;
