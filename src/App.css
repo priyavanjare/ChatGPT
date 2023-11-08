@@ -150,10 +150,10 @@ body{
   padding: 0.5rem;
   background-color: rgba(28,30,58,1);
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items:center;
   border-radius: 0.5rem;
- width: 46rem;
+  width: 45rem;
 
  }
  .inp>input,.send{
