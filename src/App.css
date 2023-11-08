@@ -146,7 +146,7 @@ body{
   align-items: center;
   justify-content: center;
  }
- .inp{
+ /* .inp{
   padding: 0.5rem;
   background-color: rgba(28,30,58,1);
   display: flex;
@@ -155,14 +155,32 @@ body{
   border-radius: 0.5rem;
   width: 45rem;
 
- }
- .inp>input,.send{
+ } */
+ /* .inp>input,.send{
   width: calc(100%-3rem);
   outline: none;
   border: none;
   /* padding: 0.5rem; */
- color: white;
+ /* color: white;
   background-color: transparent;
+ } */ */
+
+ .inp{
+  position:relative ;
+  
+ }
+ .inp input {
+  padding: 0.8rem;
+  background-color:rgba(28,30,58,1);
+  border: none;
+  width: 45rem;
+ }
+ .inp .send{
+  position:absolute;
+  right:12rem;
+  top: 39.4rem;
+  background-color: transparent;
+  border: none;
  }
  .chatFooter>p{
   margin: 2rem 0;
