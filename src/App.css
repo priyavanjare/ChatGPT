@@ -41,7 +41,7 @@ body{
 }
 .upperside-top{
   display: flex;
-  justify-content: start;
+  justify-content:flex-start;
   margin-bottom: 2.5rem;
 }
 .addBtn{
