@@ -154,8 +154,10 @@ body{
   align-items:center;
   border-radius: 0.5rem;
   width: 45rem;
+  
 
  } 
+ 
  .inp>input,.send{
   width: calc(100%-3rem);
   outline: none;
