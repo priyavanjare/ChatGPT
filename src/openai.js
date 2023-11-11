@@ -1,13 +1,9 @@
-// const {Configuration,OpenAIApi}=require("openai")
-
-// const configuration = new Configuration({apikey:"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"})
-// const openAiApi = new OpenAIApi(configuration)
 
 import OpenAI from 'openai';
-// import 'dotenv/config' 
+
 
 const openAiApi = new OpenAI({
-  apiKey: "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", dangerouslyAllowBrowser: true
+  apiKey: "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", dangerouslyAllowBrowser: true
 });
 
 export async function sendMsgToOpenApi (message){

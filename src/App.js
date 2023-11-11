@@ -17,7 +17,7 @@ function App() {
   const[input,setInput]=useState("")
   const[message,setMessage]=useState([
     {
-      text:"Hi,I am ChatGPT, a state-of-the-art language model developed by openAI.I am designed to understand and generate human-like text based on the input i receive. You can ask me question,have conversation,seek information,or even request assistance with various tasks.Just let me know how i can help you!",
+      text:"Hi, I am ChatGPT, a state-of-the-art language model developed by openAI.I am designed to understand and generate human-like text based on the input i receive. You can ask me question, have conversation, seek information, or even request assistance with various tasks. Just let me know how i can help you!",
       isBot:true,
     }
   ])
@@ -90,7 +90,7 @@ function App() {
           <div className="inp">
             <input value={input} onKeyDown={handleSend} onChange={(e)=>{setInput(e.target.value)}} type="text" placeholder='send a message' /><button onClick={handleInput} className="send"><img src={send} alt="" /></button>
           </div>
-          <p>ChatGPT may produce inaccurate information about people,places,or facts.ChatGPT Agust 20 version.</p>
+          <p>ChatGPT may produce inaccurate information about people, places, or facts.ChatGPT Agust 20 version.</p>
         </div>
       </div>
     </div>
