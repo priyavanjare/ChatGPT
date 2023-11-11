@@ -166,6 +166,10 @@ body{
   color: white;
   background-color: transparent;
  }  
+
+ .send{
+  padding-left: 23rem;
+ } 
  .chatFooter>p{
   margin: 2rem 0;
   font-size: 0.7rem;

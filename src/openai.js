@@ -4,9 +4,10 @@
 // const openAiApi = new OpenAIApi(configuration)
 
 import OpenAI from 'openai';
+// import 'dotenv/config' 
 
 const openAiApi = new OpenAI({
-  apiKey: "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", dangerouslyAllowBrowser: true
+  apiKey: "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", dangerouslyAllowBrowser: true
 });
 
 export async function sendMsgToOpenApi (message){
